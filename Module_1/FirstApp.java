@@ -1,7 +1,6 @@
-package com.company;
+package Module_1;
 
-public class Main {
-
+public class FirstApp {
     public static void main(String[] args) {
         System.out.println("Hi there!");
     }
