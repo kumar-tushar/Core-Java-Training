@@ -24,5 +24,6 @@ public class Taking_Input {
         System.out.println("Currency: "+currency);
         scanner.close();
 
+
     }
 }
