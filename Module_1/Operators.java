@@ -13,8 +13,10 @@ public class Operators {
 
         System.out.println();
 
-        boolean isSecular=true;
-
+        boolean isSecular;
+        Scanner scan=new Scanner(System.in);
+        System.out.println("Enter true or false for Secular: ");
+        isSecular=scan.nextBoolean();
         String message=isSecular?"India is secular": "India is not secular";
         System.out.println(message);
 
