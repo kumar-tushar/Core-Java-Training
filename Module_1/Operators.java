@@ -1,5 +1,7 @@
 package Module_1;
 
+import java.util.Scanner;
+
 public class Operators {
 
     public static void main(String[] args) {
@@ -11,9 +13,10 @@ public class Operators {
 
         System.out.println();
 
-        System.out.println(!true);
+        boolean isSecular=true;
 
-
+        String message=isSecular?"India is secular": "India is not secular";
+        System.out.println(message);
 
     }
 }
