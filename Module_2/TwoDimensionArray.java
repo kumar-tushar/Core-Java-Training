@@ -1,7 +1,5 @@
 package Module_2;
 
-import java.util.Arrays;
-
 public class TwoDimensionArray {
 
     public static void main(String[] args) {
