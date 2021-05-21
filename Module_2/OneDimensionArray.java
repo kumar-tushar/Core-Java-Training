@@ -19,6 +19,19 @@ public class OneDimensionArray {
             System.out.println(i);
         }
 
+        System.out.println();
+
+        float[] mySecondArray=new float[3];
+        mySecondArray[0]=34.2f;
+        mySecondArray[1]=4.6f;
+        mySecondArray[2]=78.11f;
+
+        float sum=0;
+        for(float value:mySecondArray){
+            sum+=value;
+            System.out.println(value);
+        }
+        System.out.println("sum: "+sum);
 
     }
 }
