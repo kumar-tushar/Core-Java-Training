@@ -11,6 +11,19 @@ public class StringFunctions {
         System.out.println();
 
         String firstString="welcome";
+        String secondString="welcome";
+
+        String thirdString=new String("welcome");
+        System.out.println(thirdString);
+
+        System.out.println();
+
+        System.out.println(firstString==secondString);
+        System.out.println(firstString==thirdString);
+        System.out.println(firstString.equals(thirdString));
+
+        System.out.println();
+
         System.out.println(firstString);
         System.out.println(firstString.length());
 
