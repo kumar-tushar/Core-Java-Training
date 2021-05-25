@@ -5,6 +5,19 @@ public class Rectangle{
     float length;
     float breadth;
 
+    public Rectangle(){
+        this(20.4f, 10.2f);
+    }
+
+    public Rectangle(float l){
+        length=l;
+    }
+
+    public Rectangle(float length, float breadth){
+        this.length=length;
+        this.breadth=breadth;
+    }
+
     public float getArea(){
         return length*breadth;
     }
@@ -20,7 +33,8 @@ public class Rectangle{
         r1.length=12.9f;
         r1.breadth=8.7f;
 
-        System.out.println(r1.getArea());
-        System.out.println(r1.getPerimeter());
+        Rectangle r2=new Rectangle(20.4f, 18.2f);
+        System.out.println(r2.length);
+        System.out.println(r2.breadth);
     }
 }
