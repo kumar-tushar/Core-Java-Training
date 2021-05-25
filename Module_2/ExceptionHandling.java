@@ -1,7 +1,5 @@
 package Module_2;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class ExceptionHandling {
 
     public static void main(String[] args){
@@ -10,7 +8,20 @@ public class ExceptionHandling {
 
         int[] myArray={3, 45, 8, 10};
 
-        System.out.println(myArray[1]);
+        try{
+            int result=myArray[1]/0;
+            System.out.println(myArray[21]);
+        }catch (ArrayIndexOutOfBoundsException | ArithmeticException e){
+            System.out.println(e);
+        }
+
+        try{
+            String s=null;
+            System.out.println(s.length());
+        }catch(Exception e){
+            System.out.println(e);
+        }
+
 
         System.out.println("Program Ends");
 
