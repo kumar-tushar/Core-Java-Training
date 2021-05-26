@@ -6,13 +6,42 @@ public class Dog {
     public int size;
     public String color;
 
+    //
+
     public void bark(){
         System.out.println("Woo! Woo!");
     }
-
     public void run(){
         System.out.println(breed+" is running");
     }
+
+    //
+
+    public String getBreed() {
+        return breed;
+    }
+
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    //
 
     public static void main(String[] args){
 
