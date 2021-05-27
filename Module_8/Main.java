@@ -19,21 +19,21 @@ class Television implements Remote{
 
     @Override
     public void volumeUp() {
-
+        System.out.println("Volume 🔊");
     }
 
     @Override
     public void volumeDown() {
-
+        System.out.println("Volume 🔈");
     }
 
     @Override
     public void powerOff() {
-
+        System.out.println("Power 🔛");
     }
 
     @Override
     public void PowerOn() {
-
+        System.out.println("Power 📴");
     }
 }
