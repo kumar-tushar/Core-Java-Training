@@ -6,3 +6,11 @@ public class Main {
 
     }
 }
+
+
+interface Remote{
+    abstract public void volumeUp();
+    abstract public void volumeDown();
+    abstract public void powerOff();
+    abstract public void PowerOn();
+}
