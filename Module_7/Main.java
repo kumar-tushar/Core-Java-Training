@@ -7,14 +7,21 @@ public class Main {
     }
 }
 
+
 interface Animal{
-    public void run(){
-        System.out.println("Animal Running");
-    }
+    abstract void run();
     abstract void eat();
 }
 
+
+
 class Dog implements Animal {
+
+    @Override
+    public void run() {
+        System.out.println("Dog Running");
+    }
+
     @Override
     public void eat(){
         System.out.println("Dog Eating");
