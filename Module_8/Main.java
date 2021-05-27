@@ -18,8 +18,8 @@ public class Main {
 interface Remote{
     void volumeUp();
     void volumeDown();
-    abstract public void powerOff();
-    abstract public void PowerOn();
+    void powerOff();
+    void PowerOn();
 }
 
 class Television implements Remote{
