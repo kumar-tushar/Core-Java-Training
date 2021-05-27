@@ -7,14 +7,14 @@ public class Main {
     }
 }
 
-abstract class Animal{
+interface Animal{
     public void run(){
         System.out.println("Animal Running");
     }
     abstract void eat();
 }
 
-class Dog extends Animal {
+class Dog implements Animal {
     @Override
     public void eat(){
         System.out.println("Dog Eating");
