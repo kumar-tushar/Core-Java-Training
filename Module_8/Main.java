@@ -2,15 +2,11 @@ package Module_8;
 
 public class Main {
     public static void main(String[] args){
-
         Remote remote=new Television();
-
         remote.volumeUp();
         remote.volumeDown();
         remote.PowerOn();
         remote.powerOff();
-
-
     }
 }
 
@@ -21,6 +17,7 @@ interface Remote{
     void powerOff();
     void PowerOn();
 }
+
 
 class Television implements Remote{
 
